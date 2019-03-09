@@ -1,0 +1,22 @@
+.headerbox {
+    width: 100%;
+    height: 100px;
+    background: #ad6405;
+    padding: 0px;
+}
+
+.contentsbox {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainbox {
+    width: 50%;
+}
+
+.asidebox{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(100, 122, 245);
+}
