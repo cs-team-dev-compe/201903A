@@ -1,0 +1,14 @@
+.header {
+    border: 2px solid #AEADF0;
+    background-image: url(../image/kouraneki-2.jpg);
+    text-align: center;
+}
+
+.header-box {
+    width: 100%;
+    height: 200px;
+}
+
+.header h1 {
+    color: #E57373;
+}
