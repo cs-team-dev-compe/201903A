@@ -1,14 +1,39 @@
-.header {
-    border: 2px solid #AEADF0;
+.IY-header {
+    display: flex;
+    border: 4px solid #AEADF0;
     background-image: url(../image/kouraneki-2.jpg);
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header-box {
+.IY-clear{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    /* 背景画像の透過用css */
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+}
+
+.IY-header-box {
     width: 100%;
     height: 200px;
 }
 
-.header h1 {
+.IY-header h1 {
     color: #E57373;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    text-shadow: 1.5px 1.5px 0 #D8DCFF,
+             -1.5px 1.5px 0 #D8DCFF,
+             1.5px -1.5px 0 #D8DCFF,
+             -1.5px -1.5px 0 #D8DCFF;
+    font-weight: 200;
+}
+
+.IY-textbox {
+    width: 50%;
+    text-align: center;
 }
