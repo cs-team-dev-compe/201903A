@@ -13,5 +13,11 @@
 .tt-h2-distance {
     margin: 20px;
 }
+.tt-img-size {
+    width: 200px;
+    height: 200px;
+}
 
-    
+.tt-h2-borderline{
+    border-bottom: 5px solid #E57373;
+}
